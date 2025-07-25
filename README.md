@@ -28,9 +28,11 @@ set up the hooks in your local repository clone:
 
 1.  **Install pre-commit:**
     If you don't have it installed, you can typically install it using pip:
+
     ```bash
     pip install pre-commit
     ```
+
     Alternatively, see the
     [official installation guide](https://pre-commit.com/#installation) for
     other methods (e.g., using Homebrew, Conda).
