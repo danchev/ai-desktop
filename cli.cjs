@@ -3,7 +3,7 @@ const { spawn } = require("child_process");
 const path = require("path");
 
 function printHelp() {
-  console.log(`Usage: ollama-desktop [electron-args]\n\nStarts the Ollama Desktop app using Electron.\n`);
+  console.log(`Usage: ai-desktop [electron-args]\n\nStarts the AI Desktop app using Electron.\n`);
 }
 
 let electron;

@@ -1,10 +1,10 @@
-# Contributing to Ollama Desktop
+# Contributing to AI Desktop
 
 Thank you for your interest in contributing!
 
 ## How to Contribute
 
-- **Report Issues:** Use the [GitHub Issues](https://github.com/danchev/ollama-desktop/issues) page to report bugs, request features, or ask questions.
+- **Report Issues:** Use the [GitHub Issues](https://github.com/danchev/ai-desktop/issues) page to report bugs, request features, or ask questions.
 - **Suggest Improvements:** Open an issue or discussion for ideas and feedback.
 - **Submit Pull Requests:** Fork the repository, create a feature branch, and submit a pull request with a clear description of your changes.
 
@@ -55,4 +55,4 @@ Once installed, the hooks will run automatically on `git commit`. If any hooks m
 
 ---
 
-Thank you for helping improve Ollama Desktop!
+Thank you for helping improve AI Desktop!

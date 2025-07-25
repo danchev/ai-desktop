@@ -1,9 +1,7 @@
-# Makefile for ollama-desktop
-
 .PHONY: help install build build-sandbox build-all test lint format preflight clean start debug release run-npx create-alias
 
 help:
-	@echo "Makefile for ollama-desktop"
+	@echo "Makefile for ai-desktop"
 	@echo ""
 	@echo "Usage:"
 	@echo "  make install          - Install npm dependencies"
@@ -13,8 +11,8 @@ help:
 	@echo "  make lint             - Lint the code"
 	@echo "  make format           - Format the code"
 	@echo "  make clean            - Remove generated files"
-	@echo "  make start            - Start the Ollama Desktop"
-	@echo "  make debug            - Start the Ollama Desktop in debug mode"
+	@echo "  make start            - Start the AI Desktop"
+	@echo "  make debug            - Start the AI Desktop in debug mode"
 	@echo ""
 	@echo "  make run-npx          - Run the UI using npx (for testing the published package)"
 	@echo "  make publish          - Publish the package to npmjs"
@@ -48,7 +46,7 @@ debug:
 	npm run debug
 
 run-npx:
-	npx https://github.com/danchev/ollama-desktop
+	npx https://github.com/danchev/ai-desktop
 
 publish:
 	npm publish

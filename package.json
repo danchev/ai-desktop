@@ -1,18 +1,17 @@
 {
-  "name": "ollama-desktop",
+  "name": "ai-desktop",
   "version": "0.0.3",
-  "description": "Ollama Desktop Client",
+  "description": "AI Desktop Client",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "ollama-desktop": "cli.cjs"
+    "ai-desktop": "cli.cjs"
   },
   "keywords": [
-    "ollama",
+    "ai",
     "desktop",
     "client",
     "chat",
-    "ai",
     "electron",
     "application",
     "cross-platform",
@@ -27,10 +26,10 @@
   },
   "author": "@danchev",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/danchev/ollama-desktop",
+  "homepage": "https://github.com/danchev/ai-desktop",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danchev/ollama-desktop.git"
+    "url": "git+https://github.com/danchev/ai-desktop.git"
   },
   "devDependencies": {
     "chai": "^5.2.0",
@@ -46,8 +45,8 @@
     "electron-store": "^10.0.1"
   },
   "build": {
-    "appId": "net.danchev.ollama-desktop",
-    "productName": "Ollama-Desktop",
+    "appId": "net.danchev.ai-desktop",
+    "productName": "AI-Desktop",
     "artifactName": "${productName}.${ext}",
     "directories": {
       "output": "build"

@@ -232,7 +232,7 @@ const createTray = () => {
   const contextMenu = Menu.buildFromTemplate([
     {
       label: "About (GitHub)",
-      click: () => shell.openExternal("https://github.com/danchev/ollama-desktop").catch(console.error),
+      click: () => shell.openExternal("https://github.com/danchev/ai-desktop").catch(console.error),
     },
     { type: "separator" },
     {
